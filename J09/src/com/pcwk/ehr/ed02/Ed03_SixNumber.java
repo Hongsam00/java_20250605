@@ -1,0 +1,74 @@
+/**
+ * 파일명:Ed03_SixNumber.java<br/>
+ * 생성일:2025-03-28<br/>
+ */
+package com.pcwk.ehr.ed02;
+
+import java.util.Arrays;
+
+public class Ed03_SixNumber {
+
+	public static void main(String[] args) {
+		//1~45 숫자중 중복 되지 않게 6개 추출
+		//1. 1~45배열 할당
+		//1.1 1~45난수 : = balls[0], balls[난수발생 숫자]
+		//2. shuffle
+		//3. 6개 추출
+		final int BALL_COUNT = 45;
+		int[] balls = new int[BALL_COUNT];
+		
+		//System.out.println("balls[] :" + Arrays.toString(balls));
+		for(int i = 0; i < balls.length; i++) {
+			balls[i] = i+1;
+		}
+		System.out.println("balls[] :" + Arrays.toString(balls));
+		
+		for(int i = 1; i <= BALL_COUNT; i++) {
+			int idx = (int)(Math.random()*45);
+			
+			//System.out.print(idx+", ");
+			
+//			balls[0];//x
+//			balls[idx];//y
+//			int tmpBall=;//임시변수
+			int tmpBall = balls[0];
+			balls[0] = balls[idx];
+			balls[idx] = tmpBall;
+		}
+		
+		int[] pickBall = new int[6];
+		
+		
+		for(int i = 0; i < 6; i++) {
+			System.out.print(balls[i] + ",");
+			pickBall[i] = balls[i];
+		}
+		System.out.println();
+		
+		//정렬 : ASC정렬
+		//Arrays.sort(pickBall);
+		bubbleSort(pickBall);
+		
+		//정렬된 배열 출력
+		System.out.println(Arrays.toString(pickBall));
+	}
+	
+	
+	public static void bubbleSort(int[] arr) {
+		for (int i = 0; i < arr.length - 1; i++) {// 전체 반복(arr.length-1)
+
+			for (int j = 0; j < arr.length - 1 - i; j++) { // 인접한 요소 비교
+				if (arr[j] > arr[j + 1]) { // 앞의 값이 더크면 교환
+					int temp = arr[j];
+					arr[j] = arr[j + 1];
+					arr[j + 1] = temp;
+				}
+
+			}
+
+		}
+	}
+	
+	
+
+}

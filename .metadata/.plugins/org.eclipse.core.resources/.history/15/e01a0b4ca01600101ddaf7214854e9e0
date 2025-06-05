@@ -1,0 +1,75 @@
+/**
+ * 파일명:Ed01HashmapIdPassword.java<br/>
+ * 생성일:2025-04-11
+ */
+package com.pcwk.ehr.ed04;
+
+import java.util.*;
+
+public class Ed01HashmapIdPassword {
+
+	public static void main(String[] args) {
+		String id = ""; // ID
+		String password = ""; // Password
+		// ID/비번을 HashMap으로 저장, ID/비번은 Scanner로 입력;
+		Map<String, String> userInfo = new HashMap<String, String>();
+
+		userInfo.put("user01", "a1234");
+		userInfo.put("korea", "a1234");
+		userInfo.put("java", "a1234");
+		userInfo.put("james", "a1234");
+		userInfo.put("goodman", "a1234");
+
+		// ID존재 확인: ID를 확인 하세요.
+		Scanner s = new Scanner(System.in);
+
+		// ID 입력 Null Check
+		while (true) {
+			System.out.print("ID를 입력하세요 >");
+			id = s.nextLine().trim();
+
+			// 데이터가 입력이 되면 while문 탈출
+			if (id.length() != 0) {
+				// ID 존재 확인
+				if (userInfo.containsKey(id) == true) {
+					break;
+				} else {
+					System.out.println("┌───────────────────────┐");
+					System.out.printf ("│ %s는 존재 하지 않습니다.    │%n", id);
+					System.out.println("│ 다시 입력해 주세요.       	│");
+					System.out.println("└───────────────────────┘");
+				}
+				
+			} else {
+				System.out.println("┌───────────────────────┐");
+				System.out.println("│ ID를 입력하지 않았습니다.  	│");
+				System.out.println("│ 다시 입력해 주세요.       	│");
+				System.out.println("└───────────────────────┘");
+
+			}
+
+		}
+
+		// 입력 ID:user01
+		System.out.printf("입력 ID: [%s]%n", id);
+
+		// 비밀번호 입력 Null Check
+		while (true) {
+			System.out.print("비밀번호를 입력하세요 >");
+			password = s.nextLine().trim();
+
+			// 데이터가 입력이 되면 while문 탈출
+			if (password.length() != 0) {
+				
+				String passAnswer = userInfo.get(id);
+				
+			}
+			System.out.println("┌───────────────────────────────┐");
+			System.out.println("│ Password를 입력하지 않았습니다.  	│");
+			System.out.println("│ 다시 입력해 주세요.      	        │");
+			System.out.println("└───────────────────────────────┘");
+		}
+
+	}
+
+}

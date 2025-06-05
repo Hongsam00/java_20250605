@@ -1,0 +1,15 @@
+/**
+ * 파일명:Ed01.java<br/>
+ * 생성일:2025-04-14 
+ */
+package com.pcwk.ehr.ed03;
+
+public class Ed01 {
+
+	public static void main(String[] args) {
+		//성적 기준으로 내림차순 정렬
+		// "김철수" : 87, "이영희" : 92, "박민수" : 75
+
+	}
+
+}

@@ -1,0 +1,42 @@
+FileNotFoundException:\data\member.csv (지정된 경로를 찾을 수 없습니다)
+pcwk01,�̻�01,4321a,yejiad12@gmail.com,0,2025-04-18,�Ϲ�
+pcwk02,�̻�02,4321a,yejiad12@gmail.com,0,2025-04-19,�Ϲ�
+pcwk03,�̻�03,4321a,yejiad12@gmail.com,0,2025-04-20,�Ϲ�
+pcwk04,�̻�04,4321a,yejiad12@gmail.com,0,2025-04-21,�Ϲ�
+pcwk05,�̻�05,4321a,yejiad12@gmail.com,0,2025-04-22,������
+pcwk01,�̻�01,4321a,yejiad12@gmail.com,0,2025-04-18,�Ϲ�
+pcwk02,�̻�02,4321a,yejiad12@gmail.com,0,2025-04-19,�Ϲ�
+pcwk03,�̻�03,4321a,yejiad12@gmail.com,0,2025-04-20,�Ϲ�
+pcwk04,�̻�04,4321a,yejiad12@gmail.com,0,2025-04-21,�Ϲ�
+pcwk05,�̻�05,4321a,yejiad12@gmail.com,0,2025-04-22,������
+pcwk01,이상무01,4321a,yejiad12@gmail.com,0,2025-04-18,일반
+pcwk02,이상무02,4321a,yejiad12@gmail.com,0,2025-04-19,일반
+pcwk03,이상무03,4321a,yejiad12@gmail.com,0,2025-04-20,일반
+pcwk04,이상무04,4321a,yejiad12@gmail.com,0,2025-04-21,일반
+pcwk05,이상무05,4321a,yejiad12@gmail.com,0,2025-04-22,관리자
+pcwk01,이상무01,4321a,yejiad12@gmail.com,0,2025-04-18,일반
+MemberVO [memberId=pcwk01, name=이상무01, password=4321a, email=yejiad12@gmail.com, loginCount=0, regDt=2025-04-18, role=일반, toString()=com.pcwk.ehr.member.vo.MemberVO@543295b0]
+pcwk02,이상무02,4321a,yejiad12@gmail.com,0,2025-04-19,일반
+MemberVO [memberId=pcwk02, name=이상무02, password=4321a, email=yejiad12@gmail.com, loginCount=0, regDt=2025-04-19, role=일반, toString()=com.pcwk.ehr.member.vo.MemberVO@742ff096]
+pcwk03,이상무03,4321a,yejiad12@gmail.com,0,2025-04-20,일반
+MemberVO [memberId=pcwk03, name=이상무03, password=4321a, email=yejiad12@gmail.com, loginCount=0, regDt=2025-04-20, role=일반, toString()=com.pcwk.ehr.member.vo.MemberVO@75437611]
+pcwk04,이상무04,4321a,yejiad12@gmail.com,0,2025-04-21,일반
+MemberVO [memberId=pcwk04, name=이상무04, password=4321a, email=yejiad12@gmail.com, loginCount=0, regDt=2025-04-21, role=일반, toString()=com.pcwk.ehr.member.vo.MemberVO@350aac89]
+pcwk05,이상무05,4321a,yejiad12@gmail.com,0,2025-04-22,관리자
+MemberVO [memberId=pcwk05, name=이상무05, password=4321a, email=yejiad12@gmail.com, loginCount=0, regDt=2025-04-22, role=관리자, toString()=com.pcwk.ehr.member.vo.MemberVO@1c5920df]
+┌──────────────────────┐
+│ List<MemberVO>       │
+└──────────────────────┘
+MemberVO [memberId=pcwk01, name=이상무01, password=4321a, email=yejiad12@gmail.com, loginCount=0, regDt=2025-04-18, role=일반, toString()=com.pcwk.ehr.member.vo.MemberVO@54422e18]
+MemberVO [memberId=pcwk02, name=이상무02, password=4321a, email=yejiad12@gmail.com, loginCount=0, regDt=2025-04-19, role=일반, toString()=com.pcwk.ehr.member.vo.MemberVO@75437611]
+MemberVO [memberId=pcwk03, name=이상무03, password=4321a, email=yejiad12@gmail.com, loginCount=0, regDt=2025-04-20, role=일반, toString()=com.pcwk.ehr.member.vo.MemberVO@350aac89]
+MemberVO [memberId=pcwk04, name=이상무04, password=4321a, email=yejiad12@gmail.com, loginCount=0, regDt=2025-04-21, role=일반, toString()=com.pcwk.ehr.member.vo.MemberVO@1c5920df]
+MemberVO [memberId=pcwk05, name=이상무05, password=4321a, email=yejiad12@gmail.com, loginCount=0, regDt=2025-04-22, role=관리자, toString()=com.pcwk.ehr.member.vo.MemberVO@17f9d882]
+┌──────────────────────┐
+│ List<MemberVO>       │
+└──────────────────────┘
+MemberVO [memberId=pcwk01, name=이상무01, password=4321a, email=yejiad12@gmail.com, loginCount=0, regDt=2025-04-18, role=일반, toString()=com.pcwk.ehr.member.vo.MemberVO@54422e18]
+MemberVO [memberId=pcwk02, name=이상무02, password=4321a, email=yejiad12@gmail.com, loginCount=0, regDt=2025-04-19, role=일반, toString()=com.pcwk.ehr.member.vo.MemberVO@75437611]
+MemberVO [memberId=pcwk03, name=이상무03, password=4321a, email=yejiad12@gmail.com, loginCount=0, regDt=2025-04-20, role=일반, toString()=com.pcwk.ehr.member.vo.MemberVO@350aac89]
+MemberVO [memberId=pcwk04, name=이상무04, password=4321a, email=yejiad12@gmail.com, loginCount=0, regDt=2025-04-21, role=일반, toString()=com.pcwk.ehr.member.vo.MemberVO@1c5920df]
+MemberVO [memberId=pcwk05, name=이상무05, password=4321a, email=yejiad12@gmail.com, loginCount=0, regDt=2025-04-22, role=관리자, toString()=com.pcwk.ehr.member.vo.MemberVO@17f9d882]

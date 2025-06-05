@@ -1,0 +1,16 @@
+/**
+ * 파일명:Ed02BracketChecker.java<br/>
+ * 생성일:2025-04-14 
+ */
+package com.pcwk.ehr.ed05;
+
+public class Ed02BracketChecker {
+
+	public static void main(String[] args) {
+		String input = "{[()]}";
+		
+		System.out.printf("입력:%s%n",input);
+
+	}
+
+}

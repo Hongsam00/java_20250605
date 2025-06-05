@@ -1,0 +1,29 @@
+package com.pcwk.ehr.ed02;
+
+import java.util.Iterator;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Ed01TreeSet {
+
+	public static void main(String[] args) {
+		
+		Set<Integer> treeSet = new TreeSet<Integer>();
+		
+		//요소추가
+		treeSet.add(50);
+		treeSet.add(14);
+		treeSet.add(19);
+		treeSet.add(40);
+		treeSet.add(16);
+		
+		Iterator<Integer> iter = treeSet.iterator();
+		
+		while(iter.hasNext()) {
+			System.out.print(iter.next() + ", ");
+		}
+		
+
+	}
+
+}

@@ -1,0 +1,30 @@
+/**
+ * Package Name : com.pcwk.ehr.ed08 <br/>
+ * 파일명: AutoSave.java <br/> 
+ */
+package com.pcwk.ehr.ed08;
+
+/**
+ * 
+ */
+public class AutoSave extends Thread {
+
+	public void save() {
+		System.out.println("작업 내용을 임시 저장합니다.");
+	}
+
+	@Override
+	public void run() {
+		while(true) {
+			try {
+				Thread.sleep(5*1000);
+			} catch (InterruptedException e) {
+				break;
+			}
+			
+			save();
+		}
+	}
+	
+	
+}

@@ -1,0 +1,34 @@
+/**
+ * 파일명:Ed01Stack.java<br/>
+ * 생성일:2025-04-14 
+ */
+package com.pcwk.ehr.ed05;
+
+import java.util.Stack;
+
+public class Ed01Stack {
+
+	public static void main(String[] args) {
+		
+		Stack<Integer> stack = new Stack<Integer>();
+		
+		//push
+		stack.push(14);
+		stack.push(16);
+		stack.push(23);
+		stack.push(27);
+		
+		//peek
+		System.out.println("peek: " + stack.peek()); //27
+		System.out.println("pop: " + stack.pop()); //27
+		System.out.println("peek: " + stack.peek()); //23
+		
+		System.out.println("=========================");
+		//반복문
+		while(!stack.empty()) {
+			System.out.println("pop: " + stack.pop());
+		}
+
+	}
+
+}

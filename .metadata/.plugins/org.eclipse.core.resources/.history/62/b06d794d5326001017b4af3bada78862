@@ -1,0 +1,12 @@
+/**
+ * Package Name : com.pcwk.ehr.ed08 <br/>
+ * 파일명: AutoSave.java <br/> 
+ */
+package com.pcwk.ehr.ed08;
+
+/**
+ * 
+ */
+public class AutoSave extends Thread {
+
+}

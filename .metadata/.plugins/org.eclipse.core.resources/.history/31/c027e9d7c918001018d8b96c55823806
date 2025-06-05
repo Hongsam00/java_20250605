@@ -1,0 +1,20 @@
+/**
+ * 파일명:Ed01.java<br/>
+ * 생성일:2025-04-14 
+ */
+package com.pcwk.ehr.ed03;
+
+/**
+ * 
+ */
+public class Ed01 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,29 @@
+/**
+ * 파일명:Ed01HashSet.java<br/>
+ * 생성일:2025-04-10
+ */
+package com.pcwk.ehr.ed03;
+
+import java.util.*;
+
+public class Ed01HashSet {
+
+	public static void main(String[] args) {
+		
+		String[] subjects = {"Java", "Oracle", "Html", "CSS", "Javascript", "Spring", "Python", "Flask", "AI"};
+		
+		//HashSet
+		Set<String> set = new HashSet<String>();
+		
+		//요소 추가
+		for(String subject : subjects) {
+//			System.out.println(subject);
+			set.add(subject);
+		}
+		
+		//HashSet 요소 전체 출력
+		set.iterator();
+		
+	}
+
+}

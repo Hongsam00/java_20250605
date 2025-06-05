@@ -1,0 +1,15 @@
+/**
+ * 파일명:Ed04_ArraySort.java<br/>
+ * 생성일:2025-03-28<br/>
+ */
+package com.pcwk.ehr.ed02;
+
+public class Ed04_ArraySort {
+
+	public static void main(String[] args) {
+		//[5, 3, 8, 4, 2]
+		int[] arr = {5, 3, 8, 4, 2};
+
+	}
+
+}

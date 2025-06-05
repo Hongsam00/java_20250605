@@ -1,0 +1,30 @@
+/**
+ * 파일명:Ed01Vector.java<br/>
+ * 생성일:2025-04-10
+ */
+package com.pcwk.ehr.ed02;
+
+import java.util.*;
+
+public class Ed01Vector {
+
+	static void displayVector() {
+		// Vector 전체 내용 출력
+		for (String element : vector) {
+			System.out.println(element + ", ");
+		}
+
+		// Vector의 크기
+		System.out.printf("capacity: %d%n", vector.capacity());
+
+		// 담긴요소 수
+		System.out.printf("size: %d%n", vector.size());
+	}
+
+	public static void main(String[] args) {
+		// Vector생성
+		Vector<String> vector = new Vector<String>(5);
+
+	}
+
+}

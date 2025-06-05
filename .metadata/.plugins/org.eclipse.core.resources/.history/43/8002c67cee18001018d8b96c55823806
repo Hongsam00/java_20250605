@@ -1,0 +1,51 @@
+/**
+ * 파일명:Ed02BracketChecker.java<br/>
+ * 생성일:2025-04-14 
+ */
+package com.pcwk.ehr.ed05;
+
+import java.util.Stack;
+
+public class Ed02BracketChecker {
+
+	//return boolean
+	public static boolean isBalanced(String input) {
+		boolean flag = false;
+		Stack<Character> stack = new Stack<>();
+		
+		for( char ch : input.toCharArray()) {
+			//System.out.println(ch);
+			//(,{,[ 있으면 stack 넣는다.
+			//),},] 있으면 stack 꺼낸다.
+			
+			//여는 괄호가 있으면 stack에 저장
+			if(ch == '(') {
+				stack.push(ch);
+				
+			} else if(ch == ')') {
+				if(stack.isEmpty() == true) return false;
+				
+				char open = stack.pop();
+				
+				if(open != '(' && ch == ')') {
+					return false;
+				}
+				
+			}
+			
+		}
+		//stack
+		return stack.isEmpty();
+	}
+	
+	public static void main(String[] args) {
+//		String input = "{[()]}";
+		String input = "(())";
+		
+		System.out.printf("입력:%s%n",input);
+		System.out.println(isBalanced(input)? "정상" : "비정상");
+		
+		isBalanced(input);
+	}
+
+}

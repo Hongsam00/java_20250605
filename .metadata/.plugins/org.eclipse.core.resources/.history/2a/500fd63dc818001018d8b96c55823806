@@ -1,0 +1,19 @@
+/**
+ * 파일명:Ed01TreeMap.java<br/>
+ * 생성일:2025-04-14 
+ */
+package com.pcwk.ehr.ed02;
+
+import java.util.TreeMap;
+
+public class Ed01TreeMap {
+
+	public static void main(String[] args) {
+		//TreeMap생성
+		TreeMap<String, Integer> treeMap = new TreeMap<>();
+		
+		treeMap.put("Banana", "4000");
+
+	}
+
+}

@@ -1,0 +1,16 @@
+/**
+ * 파일명:Ed01LinkedList.java<br/>
+ * 생성일:2025-04-10
+ */
+package com.pcwk.ehr.ed01;
+
+import java.util.LinkedList;
+
+public class Ed01LinkedList {
+
+	public static void main(String[] args) {
+		
+		List<String> linkedList = new LinkedList<E>();
+	}
+
+}

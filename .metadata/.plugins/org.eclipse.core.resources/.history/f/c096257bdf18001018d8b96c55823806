@@ -1,0 +1,19 @@
+/**
+ * 파일명:Ed01Stack.java<br/>
+ * 생성일:2025-04-14 
+ */
+package com.pcwk.ehr.ed05;
+
+import java.util.Stack;
+
+public class Ed01Stack {
+
+	public static void main(String[] args) {
+		
+		Stack<Integer> stack = new Stack<Integer>();
+		
+		
+
+	}
+
+}

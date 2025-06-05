@@ -1,0 +1,14 @@
+/**
+ * 파일명:ed1.java<br/>
+ * 생성일:2025-03-28<br/>
+ */
+package com.pcwk.ehr.ed02;
+
+public class ed1 {
+
+	public static void main(String[] args) {
+		int n = (int)Math.random()*10 + 1;
+
+	}
+
+}

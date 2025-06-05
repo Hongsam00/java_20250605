@@ -1,0 +1,10 @@
+/**
+ * 파일명:BankAccount.java<br/>
+ * 생성일:2025-04-10
+ */
+package com.pcwk.ehr.ed02;
+
+public class BankAccount {
+	private int balance = 10000;
+	private List<String> history = new ArrayList<>();
+}

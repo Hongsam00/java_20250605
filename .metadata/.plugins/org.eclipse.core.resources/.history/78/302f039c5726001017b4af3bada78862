@@ -1,0 +1,22 @@
+package com.pcwk.ehr.ed08;
+
+public class A3 {
+
+	public static void main(String[] args) {
+		//1+ (1+2) ...
+		int answer = 0;
+		int sum = 0;
+		
+		for(int i = ; i <= 10; i++) {
+
+			for(int j = 1; j <= i; j++) {
+				System.out.printf("i%d + j%d ", i, j);
+				sum += j;
+			}
+			answer += sum;
+		}
+		
+		System.out.println("결과: " + answer);
+	}
+
+}

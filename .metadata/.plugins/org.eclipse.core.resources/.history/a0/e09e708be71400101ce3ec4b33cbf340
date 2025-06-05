@@ -1,0 +1,14 @@
+/**
+ * 파일명:Ed01ReadFile.java<br/>
+ * 생성일:2025-04-09
+ */
+package com.pcwk.ehr.ed03;
+
+public class Ed01ReadFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

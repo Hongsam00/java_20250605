@@ -1,0 +1,33 @@
+/**
+ * 파일명:Ed02.java<br/>
+ * 생성일:2025-04-14 
+ */
+package com.pcwk.ehr.ed03;
+
+import java.util.TreeMap;
+
+public class Ed02 {
+
+	public static void main(String[] args) {
+//		### 예2 : 단어 빈도수 세기 (빈도수 기준 정렬)
+//
+//		문자에서 단어의 등장 횟수를 세고, 등장 횟수 기준으로 내림차순 출력 하세요
+//		"hello world hello java hello tree"
+
+		String input = "hello world hello java hello tree";
+		String[] words = input.split(" ");
+		
+		Map<String, Integer> freq = new TreeMap<>()
+		for (String word : words) {
+			//System.out.println(word);
+			//if : hello가 key에 있는지 확인한다. value++
+			//else : 1(value)
+		}
+
+		// 1. 단어분리
+		// 2. 단어를 Map 담는다. count++
+		// 3. 빈도수로 정렬
+
+	}
+
+}

@@ -1,0 +1,21 @@
+/**
+ * 파일명:CarDao.java <br/>
+ * 생성일:2025-04-15 
+ */
+package com.pcwk.ehr.dao;
+
+public class CarDao {
+	// 브랜드, 차량 번호, 차종, 색상, 주행거리, 연비, 변속기, 연식, 모델명, 사고 유무
+	private String brand; // 브랜드
+	private String carNumber; // 차량 번호
+	private String carType; // 차량 종류
+	private String carColor; // 차량 색상
+	private String modelName; // 모델명
+	private String transmission; // 변속기
+	private double mileage; // 주행거리 (km기준)
+	private double fuelEfficiency; // 연비 (1리터당 입력)
+	private int modelYear; // 연식
+	private boolean accident; // 사고 유무
+	
+	
+}

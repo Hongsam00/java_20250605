@@ -1,0 +1,24 @@
+/**
+ * 파일명:Ed01.java<br/>
+ * 생성일:2025-04-14 
+ */
+package com.pcwk.ehr.ed03;
+
+import java.util.*;
+
+public class Ed01 {
+
+	public static void main(String[] args) {
+		//성적 기준으로 내림차순 정렬
+		// "김철수" : 87, "이영희" : 92, "박민수" : 75
+		
+		TreeMap<String, Integer> treeMap = new TreeMap<>(Comparator.reverseOrder());
+		
+		treeMap.put("김철수", 87);
+		treeMap.put("이영희", 92);
+		treeMap.put("박민수", 75);
+		
+		System.out.println(treeMap);
+	}
+
+}

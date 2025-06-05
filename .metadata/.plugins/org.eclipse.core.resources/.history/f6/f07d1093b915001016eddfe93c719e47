@@ -1,0 +1,44 @@
+/**
+ * 파일명:Main.java<br/>
+ * 생성일:2025-04-10
+ */
+package com.pcwk.ehr.ed02;
+
+public class Main {
+
+	public static void main(String[] args) throws InterruptedException {
+		BankAccount bankAccount = new BankAccount();
+
+		Runnable task = () -> {
+			for (int i = 0; i < 9; i++) {
+				bankAccount.withdraw(Thread.currentThread().getName(), 1000);
+				
+				try {
+					Thread.sleep(30);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		};
+
+		Thread t01 = new Thread(task, "장규진");
+		Thread t02 = new Thread(task, "김지우");
+		Thread t03 = new Thread(task, "배진솔");
+
+		t01.start();
+		t02.start();
+		t03.start();
+		
+		t01.join(); // 쓰레드가 끝날 때 까지 기다리게 만드는 메서드
+		t02.join();
+		t03.join();
+		
+		System.out.println("최종 잔액: " + bankAccount.getBalance() + " 만원");
+		System.out.println("┌───────────────────────┐");
+		System.out.println("│ 출금내역			│");
+		System.out.println("└───────────────────────┘");
+		bankAccount.printHistory();
+	}
+
+}

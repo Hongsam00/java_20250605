@@ -1,0 +1,16 @@
+/**
+ * 파일명:Ed01HashMap.java<br/>
+ * 생성일:2025-04-11
+ */
+package com.pcwk.ehr.ed03;
+
+import java.util.*;
+
+public class Ed01HashMap {
+
+	public static void main(String[] args) {
+		Map<K, V>
+
+	}
+
+}

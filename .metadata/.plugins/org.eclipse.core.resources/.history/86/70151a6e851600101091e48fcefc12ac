@@ -1,0 +1,24 @@
+/**
+ * 파일명:Ed01HashMap.java<br/>
+ * 생성일:2025-04-11
+ */
+package com.pcwk.ehr.ed03;
+
+import java.util.*;
+
+public class Ed01HashMap {
+
+	public static void main(String[] args) {
+		Map<String, String> capitals = new HashMap<String, String>();
+		
+		//대한민국: 서울 
+		capitals.put("대한민국", "서울");
+		capitals.put("일본", "도쿄");
+		capitals.put("중국", "베이징");
+		capitals.put("대한민국", "서울");
+		capitals.put("대한민국", "서울");
+		
+		
+	}
+
+}

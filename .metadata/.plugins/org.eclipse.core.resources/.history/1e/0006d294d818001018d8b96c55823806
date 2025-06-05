@@ -1,0 +1,25 @@
+/**
+ * 파일명:Main.java<br/>
+ * 생성일:2025-04-14 
+ */
+package com.pcwk.ehr.ed04;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Properties prop = new Properties();
+		String filePath = "D:\\JAP_20250317\\01_JAVA\\workspace\\J20\\src\\dev_config.properties"
+		try(FileInputStream fis = new FileInputStream("dev_config.properties")) {
+			prop.load(fis);
+			
+			String userName = (String) prop.get("db.username");
+			System.out.println("DB 사용자: " + userName);
+		}
+
+	}
+
+}

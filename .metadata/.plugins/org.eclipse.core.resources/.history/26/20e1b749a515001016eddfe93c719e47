@@ -1,0 +1,47 @@
+/**
+ * 파일명:Ed01LinkedList.java<br/>
+ * 생성일:2025-04-10
+ */
+package com.pcwk.ehr.ed01;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class Ed01LinkedList {
+
+	public static void main(String[] args) {
+
+		List<String> linkedList = new LinkedList<>();
+		// LinkedList<String> linkedList = new LinkedList<>();
+
+		// 요소 추가
+		linkedList.add("Java");
+		linkedList.add("Oracle");
+		linkedList.add("Html");
+		linkedList.add("CSS");
+		linkedList.add("Javascript");
+		linkedList.add("Spring");
+		linkedList.add("Python");
+		linkedList.add("Flask");
+		linkedList.add("AI");
+
+		// 모든 요소 출력
+		for (String subject : linkedList) {
+			System.out.print(subject + ", ");
+		}
+		System.out.println("\n────────────────────────────────────────────");
+		//요소의 개수
+		System.out.printf("요소의 개수: %d",linkedList.size());
+		
+		System.out.println("\n────────────────────────────────────────────");
+		
+		//특정 인덱스의 요소 접근
+		System.out.printf("다음 과정: %s",linkedList.get(1));
+		
+		
+		
+		
+		
+	}
+
+}

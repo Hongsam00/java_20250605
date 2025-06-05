@@ -1,0 +1,33 @@
+/**
+ * 파일명:Main.java<br/>
+ * 생성일:2025-04-10
+ */
+package com.pcwk.ehr.ed03;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Member member01 = new Member("james", "이상무", "4321");
+		Member member02 = new Member("james", "이상무", "4321");
+		System.out.println("member01: " + member01);
+		System.out.println("member02: " + member02);
+		Set<Member> set = new HashSet<Member>();
+
+		set.add(member01);
+		set.add(member02);
+
+		Iterator<Member> iter = set.iterator();
+
+		while (iter.hasNext()) { // 데이터가 있으면 true
+			Member m = iter.next();
+			System.out.println(m.getName());
+
+		}
+
+	}
+
+}

@@ -1,0 +1,20 @@
+/**
+ * 파일명:MapExample.java <br/>
+ * 생성일:2025-04-15 
+ */
+package com.pcwk.ehr.ex09;
+
+/**
+ * 
+ */
+public class MapExample {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

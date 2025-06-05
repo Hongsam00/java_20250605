@@ -1,0 +1,48 @@
+/**
+ * 파일명:Ed05.java<br/>
+ * 생성일:2025-03-28<br/>
+ */
+package com.pcwk.ehr.ed02;
+
+import java.util.Arrays;
+
+public class Ed05 {
+
+	public static void main(String[] args) {
+//		- 입력 예시 : [1, 2, 3, 2, 4, 5, 1]
+//		- 출력 예시 : [1, 2, 3, 4, 5]
+//		- 힌트 : 배열을 순회하며 중복 여부를 확인한 뒤 새로운 배열에 저장합니다.
+		
+		int[] arr = {1, 2, 3, 2, 4, 5, 1};
+		
+		int[] uniqueArr = new int[arr.length];//중복 제거된 배열 변수
+		System.out.println(Arrays.toString(arr)); //원본의 배열 데이터 전체 출력
+		System.out.println(Arrays.toString(uniqueArr)); //초기화된 uniqueArr 전체 출력:0
+		
+		int uniqueCount = 0;
+		
+		for(int i = 0; i < arr.length; i++) {//배열 전체 순회
+			boolean isDuplicate = false;
+			
+			for(int j = 0; j < uniqueCount; j++) {
+				if(arr[i] == uniqueArr[j]) {
+					isDuplicate = true;
+					break;
+				}
+			}// for j end
+			
+			if(!isDuplicate) {
+				uniqueArr[uniqueCount++] = arr[i];
+			}
+			
+		} //for i end
+		
+		//결과 출력
+		System.out.println(Arrays.toString(uniqueArr));
+		int[] result = new int[uniqueCount];
+		
+		System.arraycopy(uniqueArr, 0, result, 0, uniqueCount);
+		System.out.println(Arrays.toString(result)); //중복이 제외된 배열 출력
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.pcwk.ehr.ed02;
+
+public class Ed01TreeSet {
+
+	public static void main(String[] args) {
+		
+		Set<Integer> treeSet = new TreeSet<Integer>();
+
+	}
+
+}

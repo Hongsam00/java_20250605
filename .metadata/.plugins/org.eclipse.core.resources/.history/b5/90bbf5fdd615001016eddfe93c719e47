@@ -1,0 +1,23 @@
+/**
+ * 파일명:Ed01HashSetUnion.java<br/>
+ * 생성일:2025-04-10
+ */
+package com.pcwk.ehr.ed03;
+
+import java.util.HashSet;
+
+public class Ed01HashSetUnion {
+
+	public static void main(String[] args) {
+		//"Java", "Oracle", "Html", "CSS", "Javascript", "Spring", "Python", "Flask", "AI","Java"
+		Set<String> setA = new HashSet<>();
+		setA.add("Java");
+		setA.add("Oracle");
+		setA.add("Spring");
+		
+		Set<String> setB = new HashSet<>();
+		setA.add("Spring");
+		setA.add("Python");
+	}
+
+}

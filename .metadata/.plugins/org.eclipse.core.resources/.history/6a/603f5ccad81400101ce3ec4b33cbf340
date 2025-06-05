@@ -1,0 +1,18 @@
+package com.pcwk.ehr.ed01;
+
+import java.awt.BufferCapabilities;
+
+public class Ed02Throws {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	public void readFile() {
+
+		String fileName = "D:\\JAP_20250317\\01_JAVA\\workspace\\J17\\src\\com\\pcwk\\ehr\\ed01\\Ed02Throws.java"
+		BufferedReader reader = new BufferedReader(new FileReader());
+	}
+
+}

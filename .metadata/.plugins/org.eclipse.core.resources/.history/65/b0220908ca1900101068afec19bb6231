@@ -1,0 +1,132 @@
+/**
+ * 파일명:CarDao.java <br/>
+ * 생성일:2025-04-15 
+ */
+package com.pcwk.ehr.dao;
+
+public class CarDao {
+	// 브랜드, 차량 번호, 차종, 색상, 주행거리, 연비, 변속기, 연식, 모델명, 사고 유무
+	private String brand; // 브랜드
+	private String carNumber; // 차량 번호
+	private String carType; // 차량 종류
+	private String carColor; // 차량 색상
+	private String modelName; // 모델명
+	private String transmission; // 변속기
+	private double mileage; // 주행거리 (km기준)
+	private double fuelEfficiency; // 연비 (1리터당 입력)
+	private int modelYear; // 연식
+	private boolean accident; // 사고 유무
+	/**
+	 * @return the brand
+	 */
+	public String getBrand() {
+		return brand;
+	}
+	/**
+	 * @param brand the brand to set
+	 */
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+	/**
+	 * @return the carNumber
+	 */
+	public String getCarNumber() {
+		return carNumber;
+	}
+	/**
+	 * @param carNumber the carNumber to set
+	 */
+	public void setCarNumber(String carNumber) {
+		this.carNumber = carNumber;
+	}
+	/**
+	 * @return the carType
+	 */
+	public String getCarType() {
+		return carType;
+	}
+	/**
+	 * @param carType the carType to set
+	 */
+	public void setCarType(String carType) {
+		this.carType = carType;
+	}
+	/**
+	 * @return the carColor
+	 */
+	public String getCarColor() {
+		return carColor;
+	}
+	/**
+	 * @param carColor the carColor to set
+	 */
+	public void setCarColor(String carColor) {
+		this.carColor = carColor;
+	}
+	/**
+	 * @return the modelName
+	 */
+	public String getModelName() {
+		return modelName;
+	}
+	/**
+	 * @param modelName the modelName to set
+	 */
+	public void setModelName(String modelName) {
+		this.modelName = modelName;
+	}
+	/**
+	 * @return the transmission
+	 */
+	public String getTransmission() {
+		return transmission;
+	}
+	/**
+	 * @param transmission the transmission to set
+	 */
+	public void setTransmission(String transmission) {
+		this.transmission = transmission;
+	}
+	/**
+	 * @return the mileage
+	 */
+	public double getMileage() {
+		return mileage;
+	}
+	/**
+	 * @param mileage the mileage to set
+	 */
+	public void setMileage(double mileage) {
+		this.mileage = mileage;
+	}
+	/**
+	 * @return the fuelEfficiency
+	 */
+	public double getFuelEfficiency() {
+		return fuelEfficiency;
+	}
+		
+	public void setFuelEfficiency(double fuelEfficiency) {
+		this.fuelEfficiency = fuelEfficiency;
+	}
+
+	public int getModelYear() {
+		return modelYear;
+	}
+
+	public void setModelYear(int modelYear) {
+		this.modelYear = modelYear;
+	}
+
+	public boolean isAccident() {
+		return accident;
+	}
+
+	public void setAccident(boolean accident) {
+		this.accident = accident;
+	}
+	
+	
+	
+}

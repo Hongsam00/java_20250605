@@ -1,0 +1,20 @@
+/**
+ * 파일명 : Ed05ArraySystemArrayCopy.java<br/>
+ * 생성일 : 2025-03-27<br/>
+ */
+package com.pcwk.ehr.ed01;
+
+/**
+ * 
+ */
+public class Ed05ArraySystemArrayCopy {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

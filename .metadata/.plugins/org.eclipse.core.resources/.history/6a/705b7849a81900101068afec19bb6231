@@ -1,0 +1,16 @@
+/**
+ * 파일명:MapExample.java <br/>
+ * 생성일:2025-04-15 
+ */
+package com.pcwk.ehr.ex09;
+
+import java.util.*;
+
+public class MapExample {
+
+	public static void main(String[] args) {
+		Map<String, Integer> map = new HashMap<String, Integer>()
+
+	}
+
+}

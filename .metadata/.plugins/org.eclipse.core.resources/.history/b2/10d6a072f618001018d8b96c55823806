@@ -1,0 +1,37 @@
+/**
+ * 파일명:Ed01Queue.java<br/>
+ * 생성일:2025-04-14 
+ */
+package com.pcwk.ehr.ed06;
+
+import java.util.*;
+
+public class Ed01Queue {
+
+	public static void main(String[] args) {
+		Queue<String> queue = new LinkedList<String>();
+		
+		//요소추가
+		queue.offer("Apple");
+		queue.offer("Banana");
+		queue.offer("Cherry");
+		
+		//전체요소
+		System.out.printf("전체 요소: %s%n",queue);
+		
+		//첫 번째 요소 확인
+		System.out.printf("첫 번째 요소 : %s%n", queue.peek());
+		
+		//첫 번째 요소 제거
+		System.out.printf("첫 번째 요소 : %s%n", queue.poll());
+		System.out.printf("전체 요소: %s%n",queue);
+		
+		//요소 추가
+		queue.offer("Strawberry");
+		System.out.printf("전체 요소: %s%n",queue);
+		
+		//크기 확인
+		System.out.println("Size: "+queue.size);
+	}
+
+}

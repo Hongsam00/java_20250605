@@ -1,0 +1,26 @@
+package com.pcwk.ehr.ed01;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Ed02Throws {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	public void readFile() throws IOException {
+
+		String fileName = "D:\\JAP_20250317\\01_JAVA\\workspace\\J17\\src\\com\\pcwk\\ehr\\ed01\\Ed02Throws.java";
+		BufferedReader reader = new BufferedReader(new FileReader(fileName));
+		String line = "";
+		while(line = reader.readLine() != null) {
+			System.out.println(line);
+		}
+		
+		reader.close();
+	}
+
+}

@@ -1,0 +1,23 @@
+/**
+ * Package Name : com.pcwk.ehr.ed08 <br/>
+ * 파일명: Main.java <br/> 
+ */
+package com.pcwk.ehr.ed08;
+
+public class Main {
+
+	public static void main(String[] args) {
+		AutoSave autoSave = new AutoSave();
+		autoSave.setDaemon(true);
+		
+		autoSave.start();
+		
+		try {
+			Thread.sleep(11*1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

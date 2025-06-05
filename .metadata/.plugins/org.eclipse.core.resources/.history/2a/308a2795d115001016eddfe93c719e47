@@ -1,0 +1,15 @@
+/**
+ * 파일명:Member.java<br/>
+ * 생성일:2025-04-10
+ */
+package com.pcwk.ehr.ed03;
+
+public class Member {
+	private	String	userId;		//사용자_아이디	
+	private	String	name;		//이름			
+	private	String	password;	//비밀번호	
+	
+	public Member() {
+		
+	}
+}

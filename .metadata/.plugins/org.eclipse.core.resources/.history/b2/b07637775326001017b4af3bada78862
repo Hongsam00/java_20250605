@@ -1,0 +1,14 @@
+/**
+ * Package Name : com.pcwk.ehr.ed08 <br/>
+ * 파일명: Main.java <br/> 
+ */
+package com.pcwk.ehr.ed08;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

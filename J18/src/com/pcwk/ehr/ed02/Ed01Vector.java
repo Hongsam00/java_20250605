@@ -1,0 +1,53 @@
+/**
+ * 파일명:Ed01Vector.java<br/>
+ * 생성일:2025-04-10
+ */
+package com.pcwk.ehr.ed02;
+
+import java.util.*;
+
+public class Ed01Vector {
+
+	static void displayVector(Vector<String> vector) {
+		// Vector 전체 내용 출력
+		for (String element : vector) {
+			System.out.print(element + ", ");
+		}
+		
+		// Vector의 크기
+		System.out.printf("%ncapacity: %d%n", vector.capacity());
+
+		// 담긴요소 수
+		System.out.printf("size: %d%n", vector.size());
+	}
+
+	public static void main(String[] args) {
+		// Vector생성
+		Vector<String> vector = new Vector<String>(5);
+		displayVector(vector);
+		System.out.println("───────────────────────────────────────");
+		vector.add("Java");
+		vector.add("Oracle");
+		vector.add("Html");
+		vector.add("CSS");
+		vector.add("Javascript");
+		vector.add("Spring");
+		vector.add("Python");
+		vector.add("Flask");
+		vector.addElement("AI");
+		
+		displayVector(vector);
+		System.out.println("───────────────────────────────────────");
+		
+		//요소 사이즈와 capacity를 동일하게 
+		vector.trimToSize();
+		displayVector(vector);
+		System.out.println("───────────────────────────────────────");
+		
+		//요소삭제
+		vector.remove(3);
+		displayVector(vector);
+		
+	}
+
+}

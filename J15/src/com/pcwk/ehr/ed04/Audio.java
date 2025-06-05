@@ -1,0 +1,49 @@
+/**
+ * 파일명:Audio.java<br/>
+ * 생성일:2025-04-07 
+ */
+package com.pcwk.ehr.ed04;
+
+/**
+ * 
+ */
+public class Audio implements RemoteControl {
+
+	private int volume;
+
+	public Audio() {
+		super();
+	}
+
+	@Override
+	public void turnOn() {
+		System.out.println("Audid 전원을 켭니다.");
+	}
+
+	@Override
+	public void turnOff() {
+		System.out.println("Audid 전원을 끕니다.");
+	}
+
+	@Override
+	public void setVolume(int volume) {
+		// MAX_VOLUME
+		// MIN_VOLUME
+
+		// 최대 볼륨보다 volume이 크면 volume최대 볼륨으로 설정
+		if (volume > RemoteControl.MAX_VOLUME) {
+			this.volume = RemoteControl.MAX_VOLUME;
+		}
+		// 최소 볼륨보다 volume이 작으면 volume최소 볼륨으로 설정
+		else if (volume < RemoteControl.MIN_VOLUME) {
+			this.volume = RemoteControl.MIN_VOLUME;
+		}
+		else {
+			this.volume = volume;
+		}
+
+		System.out.println("현재 Audid볼륨은: " + this.volume);
+
+	}
+
+}

@@ -1,0 +1,26 @@
+/**
+ * 파일명:FileWriterExample2.java<br/>
+ * 생성일:2025-04-09
+ */
+package com.pcwk.ehr.ex08;
+
+import java.io.IOException;
+
+public class FileWriterExample2 {
+	public static void main(String[] args) {
+		FileWriter fw = null;
+
+		try {
+			fw = new FileWriter("file.txt");
+			fw.write("Java");
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				fw.close();
+			} catch (IOException e) {
+
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+/**
+ * 파일명:Ed05.java<br/>
+ * 생성일:2025-03-28<br/>
+ */
+package com.pcwk.ehr.ed02;
+
+public class Ed05 {
+
+	public static void main(String[] args) {
+//		- 입력 예시 : [1, 2, 3, 2, 4, 5, 1]
+//		- 출력 예시 : [1, 2, 3, 4, 5]
+//		- 힌트 : 배열을 순회하며 중복 여부를 확인한 뒤 새로운 배열에 저장합니다.
+
+	}
+
+}

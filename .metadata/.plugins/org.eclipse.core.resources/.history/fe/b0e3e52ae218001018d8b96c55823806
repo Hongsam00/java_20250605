@@ -1,0 +1,31 @@
+/**
+ * 파일명:Ed02BracketChecker.java<br/>
+ * 생성일:2025-04-14 
+ */
+package com.pcwk.ehr.ed05;
+
+import java.util.Stack;
+
+public class Ed02BracketChecker {
+
+	//return boolean
+	public static boolean isBalanced(String input) {
+		boolean flag = false;
+		Stack<String> balance = new Stack<String>();
+		
+		
+		balance.push(input);
+		
+		return flag;
+	}
+	
+	public static void main(String[] args) {
+//		String input = "{ [ ( ) ] }";
+		String input = "( ( ) )";
+		
+		System.out.printf("입력:%s%n",input);
+		
+		isBalanced(input);
+	}
+
+}

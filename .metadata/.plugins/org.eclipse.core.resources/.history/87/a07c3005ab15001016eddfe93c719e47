@@ -1,0 +1,21 @@
+/**
+ * 파일명:Ed03MiddleAdd.java<br/>
+ * 생성일:2025-04-10
+ */
+package com.pcwk.ehr.ed01;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class Ed03MiddleAdd {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> arrayList = new ArrayList<Integer>();
+		LinkedList<Integer> linkedList = new LinkedList<Integer>();
+		
+		//100만개 추가
+		int size = 1_000_000;
+
+	}
+
+}

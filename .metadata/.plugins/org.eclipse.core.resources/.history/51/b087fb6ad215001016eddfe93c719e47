@@ -1,0 +1,26 @@
+/**
+ * 파일명:Main.java<br/>
+ * 생성일:2025-04-10
+ */
+package com.pcwk.ehr.ed03;
+
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Member member01 = new Member("james", "이상무", "4321");
+		Member member02 = new Member("james", "이상무", "4321");
+		
+		Set<Member> set = new HashSet<Member>();
+		
+		set.add(member01);
+		set.add(member02);
+		
+		Iterator<Member> iter = set.iterator();
+		
+		While(iter.hasNext())
+		
+	}
+
+}

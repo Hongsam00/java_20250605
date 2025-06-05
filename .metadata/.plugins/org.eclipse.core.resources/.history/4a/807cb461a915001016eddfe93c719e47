@@ -1,0 +1,30 @@
+/**
+ * 파일명:Ed02AddArrayListVSLinkedList.java<br/>
+ * 생성일:2025-04-10
+ */
+package com.pcwk.ehr.ed01;
+
+import java.util.*;
+
+public class Ed02AddArrayListVSLinkedList {
+
+	public static void main(String[] args) {
+		
+		List<Integer> arrayList = new ArrayList<Integer>();
+		List<Integer> linkedList = new LinkedList<Integer>();
+		
+		int size = 1_000_000;
+		
+		//ArrayList 성능측정
+		long start01 = System.currentTimeMillis();
+		
+		for(int i = 0; i < size; i++) {
+			
+		}
+		
+		
+		long End01 = System.currentTimeMillis();
+		
+	}
+
+}
